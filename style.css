@@ -1,0 +1,72 @@
+.main {
+  background-color: rgb(2, 2, 136);
+  color: #fff;
+}
+.title-div{
+    padding-bottom: 4rem;
+}
+.title {
+  font-size: 8rem;
+  font-family: "Anton", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 0.9;
+  margin-top: 3rem;
+  color: gold;
+  text-shadow: 5px 5px #000000;
+}
+.title-date {
+  font-size: 1.1rem;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 4.5px;
+}
+.ipl-logo {
+  width: 40%;
+}
+.teams {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.teams h2 {
+    font-weight: 700;
+}
+.team-col{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.team-each{
+    width: max;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #eee;
+}
+.down-arrow{
+    display: none;
+    margin-top: 2rem;
+    width: 3rem;
+}
+@media (max-width: 640px) {
+    .ipl-logo {
+        width: 70%;
+      }
+    .team-col{
+        width: 100%;
+    }
+    .title{
+        line-height: 1;
+    }
+    .title-date {
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+      }
+      .down-arrow{
+        display: block;
+      }
+  }
