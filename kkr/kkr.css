@@ -38,7 +38,6 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: #b3a123 solid 0.2rem;
 }
 
 .header{
@@ -50,16 +49,26 @@ body {
     padding: 1%;
     padding-left: 0;
     display: flex;
-    border: #b3a123 solid 0.2rem;
 }
 
 .logo{
     width: 100%;
-    border: #b3a123 solid 0.2rem;
 }
 
 .logoName{
     font-family: "Boulevard";
-    font-size: 2.5em;
+    font-size: 5rem;
+    text-wrap: nowrap;
     padding: 1%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-img{
+    max-width: 55%;
+    max-height: 100%;
+    margin: 1%;
 }
