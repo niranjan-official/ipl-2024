@@ -1,0 +1,65 @@
+:root{
+    --gold: #b3a123;
+    --purple: #3c2357;
+}
+
+@font-face {
+    font-family: "Corporation";
+    src: url(./assets/fonts/Corporation\ Games.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Corporation";
+    src: url(./assets/fonts/Corporation\ Games\ Straight.otf);
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Boulevard";
+    src: url(./assets/fonts/Boulevard\ Saint\ Denis.ttf);
+}
+
+@font-face{
+    font-family: "Sarabun";
+    src: url(./assets/fonts/Sarabun-Regular.ttf);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--purple);
+    color: var(--gold);
+    padding: 1rem;
+    font-family: "Sarabun";
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-decoration: no;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: #b3a123 solid 0.2rem;
+}
+
+.header{
+    width: 100%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: baseline;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-left: 0;
+    display: flex;
+    border: #b3a123 solid 0.2rem;
+}
+
+.logo{
+    width: 100%;
+    border: #b3a123 solid 0.2rem;
+}
+
+.logoName{
+    font-family: "Boulevard";
+    font-size: 2.5em;
+    padding: 1%;
+}
