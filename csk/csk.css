@@ -2,20 +2,18 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f9cd05;
-    
+    background-image: url('123.jpg');
+    background-size: cover;
   }
   
   .bg-yellow {
-    background-color: #020e28 !important; /* Yellow color for navbar */
+    background-color: #020e28 !important;
     
   }
   
   .jumbotron {
-    background-image: url('/assets/456.jpg'); /* Replace with your image */
-    background-size: cover;
-    color: #f9cd05;
-  
+    text-align: center;
+    background-color: #f9cd05;
   }
   
   .container {
@@ -32,11 +30,11 @@ body {
   }
   
   .navbar-nav .nav-link:hover {
-    color: #FFD700; /* Yellow color on hover */
+    color: #FFD700;
   }
   
   p2{
-    color:#1d418c;
+    color:#000000;
     font-style:oblique;
   }
 
