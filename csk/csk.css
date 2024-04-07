@@ -1,0 +1,54 @@
+/* csk.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9cd05;
+    
+  }
+  
+  .bg-yellow {
+    background-color: #020e28 !important; /* Yellow color for navbar */
+    
+  }
+  
+  .jumbotron {
+    background-image: url('/assets/456.jpg'); /* Replace with your image */
+    background-size: cover;
+    color: #f9cd05;
+  
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgb(249, 0, 0);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FFD700; /* Yellow color on hover */
+  }
+  
+  p2{
+    color:#1d418c;
+    font-style:oblique;
+  }
+
+  p1{
+
+    color: #1d418c;
+    font-style: inherit;
+  
+  }
+ h2{
+  color: #1d418c;
+ }
+ h1{
+  color: #1d418c;
+ }
