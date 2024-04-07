@@ -1,6 +1,14 @@
 .main {
-  background-color: rgb(2, 2, 136);
+  background-color: rgba(255, 255, 255, 0.5);
+  background: url('assets/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
+}
+#teams{
+  height: 100vh;
+  overflow-y: scroll;
 }
 .title-div{
     padding-bottom: 4rem;
@@ -34,10 +42,27 @@
     font-weight: 700;
 }
 .team-col{
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.team-col a{
+  background-color: rgba(0, 1, 42, 0.5);
+  border: 2px solid gold;
+  gap: 10px;
+}
+.team-col a:hover{
+      background-color: rgba(0, 1, 42, 0.779);
+}
+.team-col img{
+  height: 50px;
+  width: 50px;
+}
+.teamname{
+  width: 100%;
+  display: flex ;
+  justify-content: center;
 }
 .team-each{
     width: max;
@@ -53,6 +78,9 @@
     width: 3rem;
 }
 @media (max-width: 640px) {
+    #teams{
+      height: max-content;
+    }
     .ipl-logo {
         width: 70%;
       }
@@ -68,5 +96,8 @@
       }
       .down-arrow{
         display: block;
+      }
+      .teamname{
+        justify-content: flex-start;
       }
   }
