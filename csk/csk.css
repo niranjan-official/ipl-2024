@@ -1,0 +1,52 @@
+/* csk.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('123.jpg');
+    background-size: cover;
+  }
+  
+  .bg-yellow {
+    background-color: #020e28 !important;
+    
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: #f9cd05;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: rgb(249, 0, 0);
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #FFD700;
+  }
+  
+  p2{
+    color:#000000;
+    font-style:oblique;
+  }
+
+  p1{
+
+    color: #1d418c;
+    font-style: inherit;
+  
+  }
+ h2{
+  color: #1d418c;
+ }
+ h1{
+  color: #1d418c;
+ }
