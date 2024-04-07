@@ -1,12 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rcb.css">
-    <title>RCB</title>
-</head>
-<body>
-    <h1>Royal Challengers Banglore</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Challengers Bangalore</title>
+    <link rel="stylesheet" href="rcb.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 10px;
+        padding: 20px;
+        
+      }
+    
+      .image{
+        box-shadow: 10px 10px 10px 10px;
+        transition: transform 0.5 ease;
+      }
+      .image:hover{
+        transform: scale(1.1);
+      }
+      .image-text {
+        background-color: #e5b582;
+        padding: 10px;
+        border-top: 1px solid #ffffff;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 14px;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image">
+      <img src="./assets/cover.webp" />
+    </div>
+
+    <div class="loading-screen">
+      <img src="assets/logo.png" alt="Loading" class="fade-in-out" />
+    </div>
+
+    <div class="about" style="background-color: beige">
+      <h1>About our Team</h1>
+      <p>
+        Royal Challengers Bangalore, also known as RCB, is the Bengaluru-based
+        cricket franchise of the Indian Premier League (IPL). The team is owned
+        by United Spirits Limited, a Diageo Group company. RCB rose from a
+        bottom-two finish in 2008 to end as runners-up in 2009 and
+        semi-finalists in 2010. The team had 3 good seasons back-to-back when
+        they made it to the final in 2011. Led by Virat Kohli, Royal Challengers
+        Bangalore yet again finished 2nd in 2016. Under the able leadership of
+        the Director of Cricket Operations Mike Hesson, Head Coach Sanjay
+        Bangar, and captain Faf du Plessis, RCB made it to the playoffs in 2022;
+        a feat that the team has now achieved for a third consecutive season.
+        The squad consists of a fine blend of proven stars of the international
+        arena and emerging talent. The international stars include the likes of
+        Faf du Plessis, Virat Kohli, Dinesh Karthik, Glenn Maxwell, Wanindu
+        Hasaranga and Josh Hazlewood, the team over the past few years has also
+        nurtured and developed top domestic talents. Two outstanding fast
+        bowlers, Harshal Patel and Mohammed Siraj have gone on to become a
+        regular feature for Team India across different formats, while more
+        recently Shahbaz Ahmed has earned a maiden national team call-up. RCB
+        has adopted the philosophy #PlayBold which resonates both on and off the
+        field - Defeats don’t defeat us, the Challenger Spirit keeps us alive'.
+      </p>
+    </div>
+    <div style="background-color: #e5b582">
+      <h1>SQUAD</h1>
+      <div class="gallery">
+        <div class="image">
+          <img src="./assets/faf.png" alt="Image 1" />
+          <div class="image-text">
+            <h2>Faf du Plessis</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/dk.png" alt="Image 2" />
+          <div class="image-text">
+            <h2>Dinesh Karthik</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/vk1.png" alt="Image 3" />
+          <div class="image-text">
+            <h2>Virat Kohli</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/anuj.png" alt="Image 4" />
+          <div class="image-text">
+            <h2>Anuj Rawat</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/green _0.png" alt="Image 5" />
+          <div class="image-text">
+            <h2>Glenn Maxwell</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/jacks_0.png" alt="Image 6" />
+          <div class="image-text">
+            <h2>Will Jacks</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/rajat.png" alt="Image 7" />
+          <div class="image-text">
+            <h2>Rajat Patidar</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/siraj.png" alt="Image 8" />
+          <div class="image-text">
+            <h2>Mohammed Siraj</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/suyash.png" alt="Image 9" />
+          <div class="image-text">
+            <h2>Suyash Prabhudessai</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/akash.png" alt="Image 10" />
+          <div class="image-text">
+            <h2>Akash Deep</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/topley_0.png" alt="Image 11" />
+          <div class="image-text">
+            <h2>Reece Topley</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./assets/rajan_0.png" alt="Image 12" />
+          <div class="image-text">
+            <h2>Rajan Kumar</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div>
+        <h1 class="info">For more information</h1>
+      </div>
+      <div>
+        <h1 class="info">Visit RCB Official page</h1>
+      </div>
+    </div>
+    <script src="rcb.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
