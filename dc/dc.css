@@ -1,0 +1,198 @@
+body{
+    background-color: rgb(11, 54, 243);
+    margin: 0;
+    left: 550px;
+    margin-left: 550px;
+    padding: 0;
+}
+.right{
+    left: 325px;
+    top: 10px;
+    position: relative;
+    max-width: 48rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.para{
+    position: absolute;
+    left: 20px ;
+    top: 100px;
+    margin-left: 450px ;
+}
+.nav img {
+    float: left;
+    width: auto;
+    height:110px;
+}
+.nav{
+    background-color: blue;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    
+}
+.logo{
+    position: absolute;
+    height: 400px;
+    left: 10px;
+    width: 250;
+}
+.p1{
+    position: absolute;
+    height: 250px;
+    left: 400px;
+    top: 200px;
+    width: auto;
+}
+.p2{
+    position: absolute;
+    height: 250px;
+    left: 560px ;
+    top: 200px; 
+    width: auto;
+}
+.p3{
+    position: absolute;
+    height: 250px;
+    left: 710px ;
+    top: 200px; 
+    width: auto;
+}
+.p4{
+    position: absolute;
+    height: 250px;
+    left: 870px ;
+    top: 200px; 
+    width: auto;
+}
+.p5{
+    position: absolute;
+    height: 250px;
+    left: 1025px ;
+    top: 200px; 
+    width: auto;
+}
+.p6{
+    position: absolute;
+    height: 250px;
+    left: 400px ;
+    top: 500px; 
+    width: auto;
+}
+.p7{
+    position: absolute;
+    height: 250px;
+    left: 560px ;
+    top: 500px; 
+    width: auto;
+}
+.p8{
+    position: absolute;
+    height: 250px;
+    left: 710px; 
+    top: 500px;
+    width: auto;
+}
+.p9{
+    position: absolute;
+    height: 250px;
+    left: 870px; 
+    top: 500px;
+    width: auto;
+}
+.p10{
+    position: absolute;
+    height: 250px;
+    left: 1025px; 
+    top: 500px;
+    width: auto;
+}
+.p11{
+    position: absolute;
+    height: 250px;
+    left: 400px; 
+    top: 800px;
+    width: auto;
+}
+.p12{
+    position: absolute;
+    height: 250px;
+    left: 560px; 
+    top: 800px;
+    width: auto;
+}
+.p13{
+    position: absolute;
+    height: 250px;
+    left: 720px; 
+    top: 800px;
+    width: auto;
+}
+.p14{
+    position: absolute;
+    height: 250px;
+    left: 885px; 
+    top: 800px;
+    width: auto;
+}
+.pl1{
+    position: absolute;
+    left: 20px ;
+    top: 470px;
+    margin-left: 450px ;
+}
+.pl2{
+    position: absolute;
+    left: 20px ;
+    top: 470px;
+    margin-left: 595px ;
+}
+.pl3{
+    position: absolute;
+    left: 20px ;
+    top: 470px;
+    margin-left: 760px ;
+}
+.pl4{
+    position: absolute;
+    left: 20px ;
+    top: 470px;
+    margin-left: 930px ;
+}
+.pl5{
+    position: absolute;
+    left: 20px ;
+    top: 470px;
+    margin-left: 1100px 
+}
+.pl6{
+    position: absolute;
+    left: 20px ;
+    top: 750px;
+    margin-left: 410px;
+}
+.pl7{
+    position: absolute;
+    left: 20px ;
+    top: 750px;
+    margin-left: 600px 
+}
+.pl8{
+    position: absolute;
+    left: 20px ;
+    top: 750px;
+    margin-left: 770px;
+}
+.pl9{
+    position: absolute;
+    left: 20px ;
+    top: 750px;
+    margin-left: 900px;
+}
+.pl10{
+    position: absolute;
+    left: 20px ;
+    top: 750px;
+    margin-left: 1090px 
+}
