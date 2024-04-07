@@ -1,0 +1,133 @@
+body{
+    background-color: #e50693;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.nav img{
+    float: lefts;
+    width: auto;
+    height: 110px;
+    
+    
+    
+}
+.nav{
+    background-color: #950460;
+    height:55px ;
+    width: 100%;
+    display: flex;
+    flex-direction: rows;
+    padding-bottom: 50px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: monospace;
+    padding-right: 50px;
+}
+
+.right {
+    width: 50%;
+    height: auto;
+    background-color: #950460;
+}
+.right img{
+    width: 674px;
+    height: auto;
+    
+}
+.left{
+    width: 50%;
+    height: auto;
+    background-color: #e50693;
+}
+.left h1{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+
+}
+.left img{
+    height: 200px;
+    width: auto;
+    padding-right: 20px;
+}
+.wkt{
+    padding-top: 20px;
+    padding-left: 69px;
+    padding-bottom: 50px;
+    
+}
+.wkt p{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    
+}
+span{
+    color: #2d173c;
+}
+.bat{
+    padding-top: 20px;
+    padding-left: 69px;
+    padding-bottom: 100px;
+}
+.bat p{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-bottom: 20px;
+
+}
+.all{
+    padding-top: 20px;
+    padding-left: 69px;
+    padding-bottom: 100px;
+}
+.all p{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-bottom: 20px;
+
+}
+.ball{
+    padding-top: 20px;
+    padding-left: 69px;
+    padding-bottom: 100px; 
+}
+.ball p{
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.nav h1{
+    text-align: center;
+    color:   white;
+    padding-left: 450px;
+    
+}
